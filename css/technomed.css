@@ -1,0 +1,69 @@
+/* CSS Document */
+
+/* Background color for navbar and dropdown menus */
+
+.navbar-custom, .navbar-custom .dropdown-menu {
+
+    background-color: #cc0033;
+
+}
+
+/* Text color for navbar and dropdown menus */
+
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text,
+
+.navbar-custom .navbar-nav .nav-link,
+
+.navbar-custom .dropdown-item {
+
+    color: #ecf0f1;
+
+}
+
+/* Background and text colors for current page link and links on hover and focus */
+
+.navbar-custom .nav-item.active .nav-link,
+
+.navbar-custom .nav-item:hover .nav-link,
+
+.navbar-custom .nav-item:focus .nav-link,
+
+.navbar-custom .dropdown-item:hover, 
+
+.navbar-custom .dropdown-item:focus {
+
+    background-color: #cc0033;
+
+    color: #fff;
+
+}
+
+/* Border and text colors for menu icon on small screens */
+
+.custom-toggler.navbar-toggler {
+
+    border-color: #ecf0f1;
+
+    color: #fff;
+
+}
+
+/* Hamburger icon - use same rgb values as previous rule for stroke */
+
+.custom-toggler .navbar-toggler-icon {
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,20,20, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.navbar-brand {
+	background-image: url(../images/TechnoMedLogo_Square.png);
+	background-repeat: no-repeat;
+	background-size: 42px auto;
+	/*border-radius: 25px;*/
+	padding: 0px 50px;
+}
+#hero {
+	padding-left: 0px;
+	padding-right: 0px;
+}
